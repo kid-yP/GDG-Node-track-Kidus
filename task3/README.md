@@ -65,39 +65,43 @@ task3/
   
 1. Get All Books
 
-GET http://localhost:3000/api/v1/books
+   GET http://localhost:3000/api/v1/books
 
 2. Test Routing Precedence
 
-GET http://localhost:3000/api/v1/books/search
-Should return: "You are on the search page"
+   GET http://localhost:3000/api/v1/books/search
 
-3. Create Book (Success)
+   Should return: "You are on the search page"
 
-POST http://localhost:3000/api/v1/books
-Content-Type: application/json
+4. Create Book (Success)
 
-{
-  "title": "The Hobbit",
-  "author": "J.R.R. Tolkien",
-  "price": 15.99
-}
+   POST http://localhost:3000/api/v1/books
 
-4. Create Book (Validation Failure)
+   Content-Type: application/json
 
-POST http://localhost:3000/api/v1/books
-Content-Type: application/json
+   {
+     "title": "The Hobbit",
+     "author": "J.R.R. Tolkien",
+     "price": 15.99
+   }
 
-{
-  "title": "ABC",  // Too short - will fail
-  "author": "JD",
-  "price": -10     // Negative - will fail
-}
+5. Create Book (Validation Failure)
+
+   POST http://localhost:3000/api/v1/books
+
+   Content-Type: application/json
+   
+   {
+     "title": "ABC",  // Too short - will fail
+     "author": "JD",
+     "price": -10     // Negative - will fail
+   }
 
 5. Get Single Book
 
-GET http://localhost:3000/api/v1/books/1
+   GET http://localhost:3000/api/v1/books/1
 
 6. Delete Book
 
-DELETE http://localhost:3000/api/v1/books/1
+   DELETE http://localhost:3000/api/v1/books/1
+
