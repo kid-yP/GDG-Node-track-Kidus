@@ -82,6 +82,7 @@ Content-Type: application/json
   "author": "J.R.R. Tolkien",
   "price": 15.99
 }
+
 4. Create Book (Validation Failure)
 
 POST http://localhost:3000/api/v1/books
@@ -92,10 +93,11 @@ Content-Type: application/json
   "author": "JD",
   "price": -10     // Negative - will fail
 }
+
 5. Get Single Book
 
 GET http://localhost:3000/api/v1/books/1
-6. Delete Book
 
+6. Delete Book
 
 DELETE http://localhost:3000/api/v1/books/1
