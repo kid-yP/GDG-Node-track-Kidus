@@ -14,13 +14,13 @@ A RESTful Bookstore API built with Express.js, featuring professional architectu
 
 ## Project Structure
 
-task3/
+task3/ 
 
-├── src/
+├── src/ 
 
-│ ├── controllers/ # Business logic handlers
+│ ├── controllers/ # Business logic handlers 
 
-│ │ └── bookController.js
+│ │ └── bookController.js 
 
 │ ├── routes/ # Route definitions
 
@@ -116,6 +116,7 @@ task3/
 6. Delete Book
 
    DELETE http://localhost:3000/api/v1/books/1
+
 
 
 
