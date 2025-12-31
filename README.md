@@ -3,7 +3,6 @@
 This repository contains my work for the GDG Node.js / Express.js track. 
 It showcases my progress through weekly tasks, assignments, and projects as I learn backend development with JavaScript.
 
-
 ## 🚀 Project Objective
 The purpose of this repository is to document my learning journey in Node.js  and Express.js. . Each task builds on the previous one, helping me practice key concepts of server-side programming, application structure, and modern backend development.
 
